@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Camilo Camacho - About me</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-teal w3-card" style="margin:100">
+
+    <div class="w3-bar-item w3-padding-large w3-xlarge w3-hide-small ">
+      CAMILO CAMACHO
+    </div>
+
+    <div class="w3-bar-item w3-padding-largew3-padding-large w3-hide-medium w3-hide-large w3-display-left">
+      CAMILO CAMACHO
+    </div>
+
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    
+    <div class="w3-display-right">
+      <a href="./projects.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-large w3-right"><i class="fas fa-cogs"></i> Projects</a>
+      <a href="./publications.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-large w3-right"><i class="fas fa-book-open"></i> Publications</a>
+      <a href="./index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-large w3-right"><i class="fas fa-user"></i> About me</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-teal w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="./index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT ME</a>
+    <a href="./publications.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PUBLICATIONS</a>
+    <a href="./projects.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJECTS</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">  
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-padding-32" style="max-width:1200px" id="band">
+    <h2 class="w3-wide w3-center">Projects</h2>
+
+    <h3 class="w3-round w3-teal w3-padding w3-left-align w3-card">
+      <!-- <i class="fas fa-book" style="padding-right: 1%;"></i>  -->
+      Poppy Torso
+    </h3>
+    <table class="w3-table">
+      <col width="30%">
+      <col width="70%">
+      <tr>
+        <td>
+          <div> <i class="fas fa-archway" style="padding-right: 3%;"></i>
+            <a class="" href="https://www.usta.edu.co/" target="_blank">Universidad Santo Tomás</a><br>    
+          </div>
+          <div> <i class="fas fa-map-marker" style="padding-right: 3%;"></i>
+            Bogotá, Colombia
+          </div>
+          <div> <i class="fas fa-thermometer-quarter" style="padding-right: 3%;"></i>
+            Status: In progress
+          </div>
+          <div> <i class="fab fa-github" style="padding-right: 3%;"></i>
+            <a href="https://github.com/cstopics/poppy_ros" target="_blank">Poppy ROS</a>
+          </div>
+          <div> <i class="fab fa-github" style="padding-right: 3%;"></i>
+            <a href="https://github.com/cstopics/IODynamixel" target="_blank">IO Dynamixel</a>
+          </div>
+        </td>
+        <td class="w3-justify">
+          <p>Propper implementation of the <i>Poppy Torso</i> robot. (<a href="https://www.poppy-project.org/en/robots/poppy-torso" target="_blank">Original Project</a>). We use the original hardware and 3D models, but the firmware and software are being developed by us.</p>
+
+          <iframe width="390" height="300"
+            src="https://www.youtube.com/embed/e9uOjp1yBxQ">
+          </iframe>
+          <iframe width="390" height="300"
+            src="https://www.youtube.com/embed/PdLTn28FL_w">
+          </iframe>
+
+        </td>
+      </tr>
+    </table>
+
+    <h3 class="w3-round w3-teal w3-padding w3-left-align w3-card">
+      <!-- <i class="fas fa-book" style="padding-right: 1%;"></i>  -->
+      SIOC: Intelligent Containers Organizer System
+    </h3>
+    <table class="w3-table">
+      <col width="30%">
+      <col width="70%">
+      <tr>
+        <td>
+          <div> <i class="fas fa-archway" style="padding-right: 3%;"></i>
+            <a class="" href="https://www.usta.edu.co/" target="_blank">Universidad Santo Tomás</a><br>    
+          </div>
+          <div> <i class="fas fa-map-marker" style="padding-right: 3%;"></i>
+            Bogotá, Colombia
+          </div>
+          <div> <i class="fas fa-thermometer-full" style="padding-right: 3%;"></i>
+            Status: Finished
+          </div>
+          <div> <i class="fas fa-award" style="padding-right: 3%;"></i>
+            First Place - Latin Ametican Robotics Competition - IEEE Open
+          </div>
+        </td>
+        <td class="w3-justify">
+          <p>Propper implementation of the <i>Poppy Torso</i> robot. (<a href="https://www.poppy-project.org/en/robots/poppy-torso" target="_blank">Original Project</a>). We use the original hardware and 3D models, but the firmware and software are being developed by us.</p>
+
+          <table class="w3-table">
+            <col width="50%">
+            <!-- <col width="70%"> -->
+            <tr>
+              <td>
+                <img alt="SIOC Beach" src="img/sioc_playa.jpg" class="" style="width: 100%;">
+              </td>
+              <td>
+                <iframe width="390" height="350"
+                  src="https://www.youtube.com/embed/PflLXRUaZz8">
+                </iframe>
+              </td>
+            </tr>
+          </table>
+
+        </td>
+      </tr>
+    </table>
+
+    <h3 class="w3-round w3-teal w3-padding w3-left-align w3-card">
+      <!-- <i class="fas fa-book" style="padding-right: 1%;"></i>  -->
+      Supervised learning for imitation of movements in humanoid robot
+    </h3>
+    <table class="w3-table">
+      <col width="30%">
+      <col width="70%">
+      <tr>
+        <td>
+          <div><i class="far fa-calendar-alt" style="padding-right: 3%;"></i>
+            2019
+          </div>
+          <div> <i class="fas fa-archway" style="padding-right: 3%;"></i>
+            <a class="" href="https://www.usta.edu.co/" target="_blank">Universidad Santo Tomás</a><br>    
+          </div>
+          <div> <i class="fas fa-map-marker" style="padding-right: 3%;"></i>
+            Bogotá, Colombia
+          </div>
+          <div> <i class="fas fa-thermometer-quarter" style="padding-right: 3%;"></i>
+            Status: In progress
+          </div>
+        </td>
+        <td class="w3-justify">
+          <span class="w3-large"><b>Abstract</b></span><br>
+          <p>This research project aims to develop, implement and evaluate algorithms and methods of supervised learning, in order to create models that allow imitating the movement of upper limbs from video demonstrations, and thus replicate them in humanoid robots such as DarwinOP or the Poppy Torso robotic platfotm. The development will be carried out in three main stages: the  contextualization of the state of the art and the methods currently used, the implementation and training of the models based on the proposed algorithms, and the evaluation of the results obtained from the samples extracted from video.</p>
+        </td>
+      </tr>
+    </table>
+
+    <h3 class="w3-round w3-teal w3-padding w3-left-align w3-card">
+      <!-- <i class="fas fa-book" style="padding-right: 1%;"></i>  -->
+      Inference of objectives in demonstrations for learning movements in humanoid robots
+    </h3>
+    <table class="w3-table">
+      <col width="30%">
+      <col width="70%">
+      <tr>
+        <td>
+          <div><i class="far fa-calendar-alt" style="padding-right: 3%;"></i>
+            2019
+          </div>
+          <div> <i class="fas fa-archway" style="padding-right: 3%;"></i>
+            <a class="" href="https://www.usta.edu.co/" target="_blank">Universidad Santo Tomás</a><br>    
+          </div>
+          <div> <i class="fas fa-map-marker" style="padding-right: 3%;"></i>
+            Bogotá, Colombia
+          </div>
+          <div> <i class="fas fa-thermometer-quarter" style="padding-right: 3%;"></i>
+            Status: In progress
+          </div>
+        </td>
+        <td class="w3-justify">
+          <span class="w3-large"><b>Abstract</b></span><br>
+          <p>The goal is for the robot to learn to move its upper limbs from video demonstrations with people. This entails two challenges, how to make the transition from the state space of people to that of the robot and how to generalize the policy. To solve the problem, it is proposed that the robot, based on reverse reinforcement learning, infer the mathematical representation that describes the task shown in the demonstrations. In this way, the robot can learn a generalized policy similar to that of the expert. For learning and validation, the use of humanoid robots, such as the DarwinOP or the open-source platform PoppyTorso, is planned.</p>
+        </td>
+      </tr>
+    </table>
+
+    <h3 class="w3-round w3-teal w3-padding w3-left-align w3-card">
+      <!-- <i class="fas fa-book" style="padding-right: 1%;"></i>  -->
+      Theses
+    </h3>
+    <table class="w3-table">
+        <col width="30%">
+        <col width="70%">
+        <tr>
+          <td>
+            <div><i class="far fa-calendar-alt" style="padding-right: 3%;"></i>
+              2017
+            </div>
+            <div> <i class="fas fa-archway" style="padding-right: 3%;"></i>
+              <a href="http://unal.edu.co/" target="_blank">Universidad Nacional de Colombia</a><br>
+            </div>
+            <div> <i class="fas fa-map-marker" style="padding-right: 3%;"></i>
+              Bogotá, Colombia
+            </div>
+            <div> <i class="fas fa-thermometer-full" style="padding-right: 3%;"></i>
+              Status: Finished
+            </div>
+          </td>
+          <td class="w3-justify">
+            <span class="w3-large"><b>Master thesis</b></span><br>
+            <p>Real-time Urban Traffic Monitoring and Classification System through Digital Image Processing</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div><i class="far fa-calendar-alt" style="padding-right: 3%;"></i>
+              2014
+            </div>
+            <div> <i class="fas fa-archway" style="padding-right: 3%;"></i>
+              <a href="http://uptc.edu.co/" target="_blank">Universidad Pedagógica y Tecnológica de Colombia</a><br>
+            </div>
+            <div> <i class="fas fa-map-marker" style="padding-right: 3%;"></i>
+              Tunja, Colombia
+            </div>
+            <div> <i class="fas fa-thermometer-full" style="padding-right: 3%;"></i>
+              Status: Finished
+            </div>
+          </td>
+          <td class="w3-justify">
+            <span class="w3-large"><b>Bachelor Thesis</b></span><br>
+            <p>Performance Evaluation of Controllers for Temperature and Level Regulation in Cascade Tanks</p>
+          </td>
+        </tr>
+      </table>
+
+    <h3 class="w3-round w3-teal w3-padding w3-left-align w3-card">
+      <!-- <i class="fas fa-book" style="padding-right: 1%;"></i>  -->
+      Other Projects
+    </h3>
+
+    <table class="w3-table">
+        <col width="30%">
+        <col width="70%">
+        <tr>
+          <td>
+            <div><i class="far fa-calendar-alt" style="padding-right: 3%;"></i>
+              2019
+            </div>
+            <div> <i class="fas fa-archway" style="padding-right: 3%;"></i>
+              <a class="" href="https://www.usta.edu.co/" target="_blank">Universidad Santo Tomás</a><br>    
+            </div>
+            <div> <i class="fas fa-map-marker" style="padding-right: 3%;"></i>
+              Bogotá, Colombia
+            </div>
+            <div> <i class="fas fa-thermometer-full" style="padding-right: 3%;"></i>
+              Status: Finished
+            </div>
+            <div> <i class="fab fa-github" style="padding-right: 3%;"></i>
+              <a href="https://github.com/cstopics/realsense_dataset_recorder" target="_blank"> Code
+              </a>
+            </div>
+          </td>
+          <td class="w3-justify">
+            <span class="w3-large"><b>Realsense Dataset Recorder</b></span><br>
+            <p>Software to record RGB-D datasets via Realsense D435</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div><i class="far fa-calendar-alt" style="padding-right: 3%;"></i>
+              2019
+            </div>
+            <div> <i class="fas fa-archway" style="padding-right: 3%;"></i>
+              <a class="" href="https://www.usta.edu.co/" target="_blank">Universidad Santo Tomás</a><br>    
+            </div>
+            <div> <i class="fas fa-map-marker" style="padding-right: 3%;"></i>
+              Bogotá, Colombia
+            </div>
+            <div> <i class="fas fa-thermometer-full" style="padding-right: 3%;"></i>
+              Status: Finished
+            </div>
+            <div> <i class="fab fa-github" style="padding-right: 3%;"></i>
+              <a href="https://github.com/cstopics/openpose_tensorflow" target="_blank"> Code
+              </a>
+            </div>
+          </td>
+          <td class="w3-justify">
+            <span class="w3-large"><b>OpenPose Tensorflow</b></span><br>
+            <p><a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose" target="_blank">OpenPose</a> implementation using tensorflow.</p>
+          </td>
+        </tr>
+        <tr>
+            <td>
+              <div><i class="far fa-calendar-alt" style="padding-right: 3%;"></i>
+                2018
+              </div>
+              <div> <i class="fas fa-archway" style="padding-right: 3%;"></i>
+                <a class="" href="https://www.usta.edu.co/" target="_blank">Universidad Santo Tomás</a><br>    
+              </div>
+              <div> <i class="fas fa-map-marker" style="padding-right: 3%;"></i>
+                Bogotá, Colombia
+              </div>
+              <div> <i class="fas fa-thermometer-full" style="padding-right: 3%;"></i>
+                Status: Finished
+              </div>
+              <div> <i class="fab fa-github" style="padding-right: 3%;"></i>
+                <a href="https://github.com/cstopics/pacman_dijkstra" target="_blank"> Code
+                </a>
+              </div>
+            </td>
+            <td class="w3-justify">
+              <span class="w3-large"><b>Dijkstra Pacman</b></span><br>
+              <p>Dijkstra algorithm based pacman solution.</p>
+            </td>
+          </tr>
+      </table>
+
+    <div class="w3-row w3-padding-32 w3-large w3-center">
+      <div class="w3-third">
+        <a href="./index.html"><i class="fas fa-user w3-xxxlarge w3-text-teal"></i></a>
+        <p>About me</p>
+      </div>
+      <div class="w3-third">
+        <a href="./publications.html"><i class="fas fa-book-open w3-xxxlarge w3-text-teal"></i></a>
+        <p>Publications</p>
+      </div>
+      <div class="w3-third">
+        <a href="./projects.html"><i class="fas fa-cogs w3-xxxlarge w3-text-teal"></i></a>
+        <p>Projects</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- The Contact Section -->
+  <!--  -->
+  <div class="w3-container w3-content w3-padding-32 w3-teal" style="max-width:2000px" id="contact">
+
+        <!-- <div class="" style="max-width:800px"> -->
+        <div>
+          <div class="w3-col m6 w3-large w3-margin-bottom w3-center">
+            <h2 class="w3-wide w3-center">Contact</h2>
+            <i class="fa fa-map-marker" style="width:30px"></i> Bogotá, Colombia<br>
+            <!-- <i class="fa fa-phone" style="width:30px"></i> Phone: +57 3013313328<br> -->
+            <i class="fa fa-envelope" style="width:30px"> </i> Email: camilo.im93[at]gmail.com<br>
+          </div>
+          <div class="w3-col m6 w3-large w3-margin-bottom w3-center">
+            <h2 class="w3-wide w3-center">Other links</h2>
+            <i class="fab fa-linkedin" style="width:30px"></i><a href="https://www.linkedin.com/in/edgar-camilo-camacho-poveda-288230123/" target="_blank">LinkedIn</a><br>
+            <i class="fab fa-github" style="width:30px"></i><a href="https://github.com/edgarcamilocamacho" target="_blank">GitHub</a><br>        
+            <i class="fab fa-orcid" style="width:30px"></i><a href="https://orcid.org/0000-0002-6084-2512" target="_blank">ORCID</a><br>
+            <i class="fas fa-graduation-cap" style="width:30px"></i><a href="https://scholar.google.com/citations?user=tJG988kAAAAJ" target="_blank">Google Scholar</a><br>
+          </div>
+        </div>
+
+  </div>
+  
+</div>
+<!-- End Page Content -->
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
