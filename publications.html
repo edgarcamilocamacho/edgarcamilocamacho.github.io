@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Camilo Camacho - About me</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-teal w3-card" style="margin:100">
+
+    <div class="w3-bar-item w3-padding-large w3-xlarge w3-hide-small ">
+      CAMILO CAMACHO
+    </div>
+
+    <div class="w3-bar-item w3-padding-largew3-padding-large w3-hide-medium w3-hide-large w3-display-left">
+      CAMILO CAMACHO
+    </div>
+
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    
+    <div class="w3-display-right">
+      <a href="./projects/html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-large w3-right"><i class="fas fa-cogs"></i> Projects</a>
+      <a href="./publications.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-large w3-right"><i class="fas fa-book-open"></i> Publications</a>
+      <a href="./index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-large w3-right"><i class="fas fa-user"></i> About me</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-teal w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="./index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT ME</a>
+    <a href="./publications.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PUBLICATIONS</a>
+    <a href="./projects/html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJECTS</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">  
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-padding-32" style="max-width:1200px" id="band">
+    <h2 class="w3-wide w3-center">Publications</h2>
+
+    <h3 class="w3-round w3-teal w3-padding w3-left-align w3-card">
+        <!-- <i class="fas fa-book" style="padding-right: 1%;"></i>  -->
+        Inverse Reinforcement Learning Application for Discrete and Continuous Environments
+      </h3>
+      <table class="w3-table">
+        <col width="30%">
+        <col width="70%">
+        <tr>
+          <td>
+            <div><i class="far fa-calendar-alt" style="padding-right: 3%;"></i>
+              November 2019
+            </div>
+            <div><i class="fas fa-users" style="padding-right: 3%;"></i>
+              Yeison Suárez, Camilo Camacho, Carolina Higuera
+            </div>
+            <div> <i class="fas fa-archway" style="padding-right: 3%;"></i>
+              AETA 2019: The 6th International Conference on Advanced Engineering - Theory and Applications 2019
+            </div>
+            <div> <i class="fas fa-map-marker" style="padding-right: 3%;"></i>
+              Bogotá, Colombia
+            </div>
+            <div> <i class="fas fa-book" style="padding-right: 3%;"></i>
+              Lecture Notes in Electrical Engineering
+            </div>
+            <div> <i class="fa fa-link" style="padding-right: 3%;"></i>
+              Awaiting publication
+            </div>
+          </td>
+          <td class="w3-justify">
+            <span class="w3-large"><b>Abstract</b></span><br>
+            <p>We show the application of inverse reinforcement learning (IRL) in discrete and continuous environments based on the apprenticeship focus. The objective is to learn a mathematical definition of a task based on trajectories made by an expert agent. To achieve this, there must be features functions that in some way describe abilities that the agent can learn. Therefore, the description of a task can be formulated as a linear combination of those functions. This learning method was applied in Open-AI gym environments to show the learning process of a task using demonstrations.</p>
+            <span class="w3-large"><b>Keywords</b></span><br>
+            Inverse reinforcement learning, Reinforcement learning, Quadratic programming
+          </td>
+        </tr>
+      </table>
+
+    <h3 class="w3-round w3-teal w3-padding w3-left-align w3-card">
+      <!-- <i class="fas fa-book" style="padding-right: 1%;"></i>  -->
+      Vision based upper limbs movement recognition using LSTM neural network
+    </h3>
+    <table class="w3-table">
+      <col width="30%">
+      <col width="70%">
+      <tr>
+        <td>
+          <div><i class="far fa-calendar-alt" style="padding-right: 3%;"></i>
+            November 2019
+          </div>
+          <div><i class="fas fa-users" style="padding-right: 3%;"></i>
+            Andrea Rey, Alison Ruiz, Camilo Camacho, Carolina Higuera
+          </div>
+          <div> <i class="fas fa-archway" style="padding-right: 3%;"></i>
+            AETA 2019: The 6th International Conference on Advanced Engineering - Theory and Applications 2019
+          </div>
+          <div> <i class="fas fa-map-marker" style="padding-right: 3%;"></i>
+            Bogotá, Colombia
+          </div>
+          <div> <i class="fas fa-book" style="padding-right: 3%;"></i>
+            Lecture Notes in Electrical Engineering
+          </div>
+          <div> <i class="fa fa-link" style="padding-right: 3%;"></i>
+            Awaiting publication
+          </div>
+        </td>
+        <td class="w3-justify">
+          <span class="w3-large"><b>Abstract</b></span><br>
+          <p>This paper presents the theoretical background and the implementation of a Long Short-Term Memory (LSTM) Neural Network architecture to recognize arm movements from video clips. The pose points (corresponding to the position of six body parts: shoulders, elbows and wrists) are extracted with a pre-trained Convolutional Pose Machine. Those points generate sequences over time with 66 (x,y) pairs, which are the input for a neural network, to classify them in 20 movement classes. Our architecture has 128 LSTM cells and presented 92.5% of accuracy on testing data and an execution time of around 6.64ms.</p>
+          <p>Moreover, we present the methodology used to create our dataset, with 2400 samples of 20 different arms movements, recorded by 6 persons with different physical appearance in a controlled environment.</p>
+          <span class="w3-large"><b>Keywords</b></span><br>
+          Movement Recognition, Pose Recognition, Recurrent Neural Network, Long Short-Term Memory Neural Network
+        </td>
+      </tr>
+    </table>
+
+    <h3 class="w3-round w3-teal w3-padding w3-left-align w3-card">
+      <!-- <i class="fas fa-book" style="padding-right: 1%;"></i>  -->
+      An Artificial Vision Based Method for Vehicle Detection and Classification in Urban Traffic
+    </h3>
+    <table class="w3-table">
+      <col width="30%">
+      <col width="70%">
+      <tr>
+        <td>
+          <div><i class="far fa-calendar-alt" style="padding-right: 3%;"></i>
+            September 2019
+          </div>
+          <div><i class="fas fa-users" style="padding-right: 3%;"></i>
+            Camilo Camacho, César Pedraza, Carolina Higuera
+          </div>
+          <div> <i class="fas fa-archway" style="padding-right: 3%;"></i>
+            IbPRIA 2019: Iberian Conference on Pattern Recognition and Image Analysis
+          </div>
+          <div> <i class="fas fa-map-marker" style="padding-right: 3%;"></i>
+            Madrid, Spain
+          </div>
+          <div> <i class="fas fa-book" style="padding-right: 3%;"></i>
+            Lecture Notes in Computer Science
+          </div>
+          <div> <i class="fa fa-link" style="padding-right: 3%;"></i>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-030-31321-0_34" target="_blank">Paper link</a>
+          </div>
+        </td>
+        <td class="w3-justify">
+          <span class="w3-large"><b>Abstract</b></span><br>
+          <p>This paper proposes a system to analyze urban traffic through the using of artificial vision, in order to get reliable information about the traffic flow in cities with severe traffic jam, as in Bogotá, Colombia. It was proposed a method efficient enough to be implemented in an embedded system, in order to process the images captured by a local camera and send the synthesized information to the cloud. This approach would allow spending fewer data transference, because it would not be necessary to send the video of each camera in the city via streaming, instead, each camera would send only the relevant traffic information. The system is able to calculate traffic flow, classified in motorbikes, buses, microbuses, minivans, sedans, SUVs and trucks.</p>
+          <p> detection was implemented using a cascade classifier that evaluates HAAR features, providing a detection rate of 74.9% and a false positive rate of 1.4%. A Kalman filter was used to track and count the detected vehicles. Finally, a Convolutional Neural Network performing as classifier, with accuracies around 88%. The complete system presented errors around 2.5% in contrast with the manual counting in traffic of Bogotá, Colombia.</p>
+          <span class="w3-large"><b>Keywords</b></span><br>
+          Intelligent transportation systems, Convolutional Neural Networks, Artificial vision, Road car counting 
+        </td>
+      </tr>
+    </table>
+
+    <h3 class="w3-round w3-teal w3-padding w3-left-align w3-card">
+      <!-- <i class="fas fa-book" style="padding-right: 1%;"></i>  -->
+      Multiagent Reinforcement Learning Applied to Traffic Light Signal Control
+    </h3>
+    <table class="w3-table">
+      <col width="30%">
+      <col width="70%">
+      <tr>
+        <td>
+          <div><i class="far fa-calendar-alt" style="padding-right: 3%;"></i>
+            June 2019
+          </div>
+          <div><i class="fas fa-users" style="padding-right: 3%;"></i>
+            Carolina Higuera, Fernando Lozano, Camilo Camacho, Carlos Hernando Higuera
+          </div>
+          <div> <i class="fas fa-archway" style="padding-right: 3%;"></i>
+            PAAMS 2019: International Conference on Practical Applications of Agents and Multi-Agent Systems
+          </div>
+          <div> <i class="fas fa-map-marker" style="padding-right: 3%;"></i>
+            Ávila, Spain
+          </div>
+          <div> <i class="fas fa-book" style="padding-right: 3%;"></i>
+            Lecture Notes in Computer Science
+          </div>
+          <div> <i class="fa fa-link" style="padding-right: 3%;"></i>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-030-24209-1_10" target="_blank">Paper link</a>
+          </div>
+        </td>
+        <td class="w3-justify">
+          <span class="w3-large"><b>Abstract</b></span><br>
+          <p>We present the application of multiagent reinforcement learning to the problem of traffic light signal control to decrease travel time. We model roads as a collection of agents for each signalized junction. Agents learn to set phases that jointly maximize a reward function that encourages short vehicle queuing delays and queue lengths at all junctions. The first approach that we tested exploits the fact that the reward function can be splitted into contributions per agent. Junctions are modeled as vertices in a coordination graph and the joint action is found with the variable elimination algorithm. The second method exploits the principle of locality to compute the best action for an agent as its best response for a two player game with each member of its neighborhood. We apply the learning methods to a simulated network of 6 intersections, using data from the Transit Department of Bogotá, Colombia. These methods obtained significant reductions in queuing delay with respect to the fixed time control, and in general achieve shorter travel times across the network than some other reinforcement learning based methods found in the literature.</p>
+          <span class="w3-large"><b>Keywords</b></span><br>
+          Adaptive traffic light signal control, Best response Coordination graphs, Game theory, Machine learning, Multiagent reinforcement learning, Variable elimination 
+        </td>
+      </tr>
+    </table>
+
+    <h3 class="w3-round w3-teal w3-padding w3-left-align w3-card">
+      <!-- <i class="fas fa-book" style="padding-right: 1%;"></i>  -->
+      Demostration of Multiagent Reinforcement Learning Applied to Traffic Light Signal Control
+    </h3>
+    <table class="w3-table">
+      <col width="30%">
+      <col width="70%">
+      <tr>
+        <td>
+          <div><i class="far fa-calendar-alt" style="padding-right: 3%;"></i>
+            June 2019
+          </div>
+          <div><i class="fas fa-users" style="padding-right: 3%;"></i>
+            Carolina Higuera, Fernando Lozano, Camilo Camacho, Carlos Hernando Higuera
+          </div>
+          <div> <i class="fas fa-archway" style="padding-right: 3%;"></i>
+            PAAMS 2019: International Conference on Practical Applications of Agents and Multi-Agent Systems
+          </div>
+          <div> <i class="fas fa-map-marker" style="padding-right: 3%;"></i>
+            Ávila, Spain
+          </div>
+          <div> <i class="fas fa-book" style="padding-right: 3%;"></i>
+            Lecture Notes in Computer Science
+          </div>
+          <div> <i class="fa fa-link" style="padding-right: 3%;"></i>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-030-24209-1_25" target="_blank">Paper link</a>
+          </div>
+        </td>
+        <td class="w3-justify">
+          <span class="w3-large"><b>Abstract</b></span><br>
+          <p>We present a demonstration of two coordination methods for the application of multiagent reinforcement learning to the problem of traffic light signal control to decrease travel time. The first approach that we tested exploits the fact that the reward function can be splitted into contributions per agent. The second method computes the best response for a two player game with each member of its neighborhood. We apply both learning methods through SUMO traffic simulator, using data from the Transit Department of Bogotá, Colombia.</p>
+          <span class="w3-large"><b>Keywords</b></span><br>
+          Adaptive traffic light signal control, Best response Coordination graphs, Multiagent reinforcement learning 
+        </td>
+      </tr>
+    </table>
+
+    <h3 class="w3-round w3-teal w3-padding w3-left-align w3-card">
+      <!-- <i class="fas fa-book" style="padding-right: 1%;"></i>  -->
+      PI Vectorial control of level and temperature for cascading tank system
+    </h3>
+    <table class="w3-table">
+      <col width="30%">
+      <col width="70%">
+      <tr>
+        <td>
+          <div><i class="far fa-calendar-alt" style="padding-right: 3%;"></i>
+            October 2015
+          </div>
+          <div><i class="fas fa-users" style="padding-right: 3%;"></i>
+            Carolina Higuera, Camilo Camacho, Ferney Soler, Oscar Rodríguez, L. Fabián R. Jiménez
+          </div>
+          <div> <i class="fas fa-archway" style="padding-right: 3%;"></i>
+            2015 CHILEAN Conference on Electrical, Electronics Engineering, Information and Communication Technologies (CHILECON)
+          </div>
+          <div> <i class="fas fa-map-marker" style="padding-right: 3%;"></i>
+            Santiago, Chile
+          </div>
+          <div> <i class="fa fa-link" style="padding-right: 3%;"></i>
+            <a href="https://ieeexplore.ieee.org/abstract/document/7400354" target="_blank">Paper link</a>
+          </div>
+        </td>
+        <td class="w3-justify">
+          <span class="w3-large"><b>Abstract</b></span><br>
+          <p>This document shows the results obtained experimentally for the deduction of transfer functions of a tanks plant connected in cascade through measurement of level and temperature variables. To obtain the characteristic curves that describe the behavior of these variables were used sensors installed in the process. Also, the design procedure of a multivariable controller with integral action is described. The digital controller is implemented in real time using the Toolbox Simulink® and software tools from Matlab®, obtaining static and dynamic responses of successful operation to ensure system operation to a temperature and level desirables, applied to production processes.</p>
+          <span class="w3-large"><b>Keywords</b></span><br>
+          System Identification, Control Theory, State Variable Feedback Controller, PI Vectorial, Digital Control
+        </td>
+      </tr>
+    </table>
+
+  </div>
+
+  <!-- The Contact Section -->
+  <!--  -->
+  <div class="w3-container w3-content w3-padding-32 w3-teal" style="max-width:2000px" id="contact">
+
+        <!-- <div class="" style="max-width:800px"> -->
+        <div>
+          <div class="w3-col m6 w3-large w3-margin-bottom w3-center">
+            <h2 class="w3-wide w3-center">Contact</h2>
+            <i class="fa fa-map-marker" style="width:30px"></i> Bogotá, Colombia<br>
+            <!-- <i class="fa fa-phone" style="width:30px"></i> Phone: +57 3013313328<br> -->
+            <i class="fa fa-envelope" style="width:30px"> </i> Email: camilo.im93[at]gmail.com<br>
+          </div>
+          <div class="w3-col m6 w3-large w3-margin-bottom w3-center">
+            <h2 class="w3-wide w3-center">Other links</h2>
+            <i class="fab fa-linkedin" style="width:30px"></i><a href="https://www.linkedin.com/in/edgar-camilo-camacho-poveda-288230123/" target="_blank">LinkedIn</a><br>
+            <i class="fab fa-github" style="width:30px"></i><a href="https://github.com/edgarcamilocamacho" target="_blank">GitHub</a><br>        
+            <i class="fab fa-orcid" style="width:30px"></i><a href="https://orcid.org/0000-0002-6084-2512" target="_blank">ORCID</a><br>
+            <i class="fas fa-graduation-cap" style="width:30px"></i><a href="https://scholar.google.com/citations?user=tJG988kAAAAJ" target="_blank">Google Scholar</a><br>
+          </div>
+        </div>
+
+  </div>
+  
+</div>
+<!-- End Page Content -->
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
