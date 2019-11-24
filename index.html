@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Camilo Camacho - About me</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-teal w3-card" style="margin:100">
+
+    <div class="w3-bar-item w3-padding-large w3-xlarge w3-hide-small ">
+      CAMILO CAMACHO
+    </div>
+
+    <div class="w3-bar-item w3-padding-largew3-padding-large w3-hide-medium w3-hide-large w3-display-left">
+      CAMILO CAMACHO
+    </div>
+
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    
+    <div class="w3-display-right">
+      <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-large w3-right"><i class="fas fa-cogs"></i> Projects</a>
+      <a href="#publications" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-large w3-right"><i class="fas fa-book-open"></i> Publications</a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-large w3-right"><i class="fas fa-user"></i> About me</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-teal w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#aboutme" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT ME</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PUBLICATIONS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJECTS</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">  
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-32" style="max-width:1200px" id="band">
+    <h2 class="w3-wide">About me</h2>
+
+    <div class="w3-cell-row">
+      
+      <div class="w3-container w3-cell w3-left-align w3-mobile" style="width:30%">
+        <img alt="Camilo Camacho" src="img/camilo.jpg" class="w3-border w3-padding w3-card" style="width: 100%;">
+      </div>
+
+      <div class="w3-container w3-cell w3-left-align w3-mobile">
+
+        <h3 class="w3-round w3-teal w3-padding w3-card">
+          <i class="fas fa-user"></i> General Information & Contact
+        </h3>
+        <p class="w3-left-align"> <b>Name:</b> Camilo Camacho </p>
+        <p class="w3-left-align"> <b>Email:</b> camilo.im93[at]gmail.com </p>
+        <div class="w3-xlarge w3-left-align w3-text-teal w3-padding">
+          <a href="https://www.linkedin.com/in/edgar-camilo-camacho-poveda-288230123/" target="_blank"><i class="fab fa-linkedin" ></i></a>
+          <a href="https://github.com/edgarcamilocamacho" target="_blank"><i class="fab fa-github" ></i></a>     
+          <a href="https://orcid.org/0000-0002-6084-2512" target="_blank"><i class="fab fa-orcid" ></i></a>
+          <a href="https://scholar.google.com/citations?user=tJG988kAAAAJ" target="_blank"><i class="fas fa-graduation-cap" ></i></a>
+        </div>
+
+        <h3 class="w3-round w3-teal w3-padding w3-card">
+          <i class="fas fa-graduation-cap"></i> Education
+        </h3>
+
+        <table class="w3-table">
+            <col width="30%">
+            <!-- <col width="70%"> -->
+            <tr>
+              <td><i class="far fa-calendar-alt"></i> August 2015 – April 2018</td>
+              <td>
+                  <span class="w3-large"><b>Master in Electronics Engineering</b></span><br>
+                  <a href="http://unal.edu.co/" target="_blank">Universidad Nacional de Colombia</a><br>
+                  Bogotá, Colombia
+              </td>
+            </tr>
+
+            <tr>
+              <td><i class="far fa-calendar-alt"></i> February 2010 – April 2015</td>
+              <td>
+                  <span class="w3-large"><b>Bachelor in Electronics Engineering</b></span><br>
+                  <a href="http://uptc.edu.co/" target="_blank">Universidad Pedagógica y Tecnológica de Colombia</a><br>
+                  Tunja, Colombia
+              </td>
+            </tr>
+        </table>
+
+      </div>
+
+    </div>
+
+    <div class="w3-cell-row">
+
+      <div class="w3-container w3-cell w3-left-align w3-mobile" style="width:50%">
+        <h3 class="w3-round w3-teal w3-padding w3-card">
+            <i class="fas fa-briefcase"></i> Past and Present Positions
+        </h3>
+
+        <table class="w3-table">
+          <col width="25%">
+          <!-- <col width="70%"> -->
+
+          <tr>
+            <td><i class="far fa-calendar-alt"></i> March 2018 - Ongoing</td>
+            <td>
+                <span class="w3-large"><b>Lecturer and Researcher</b></span><br>
+                <a class="" href="https://www.usta.edu.co/" target="_blank">Universidad Santo Tomás</a><br>
+                Bogotá, Colombia<br>
+                <p class="w3-justify">Member of the Development Group in Robotics (GED) of the Universidad Santo Tomás, leader of the Artificial Vision research line.</p>
+                <p><b>Courses imparted:</b></p>
+                <ul>
+                  <li>Artificial Vision: <a href="https://cstopics.github.io/cstopics/vision" target="_blank">course page</a></li>
+                  <li>Introduction to Artificial Intelligence: <a href="https://cstopics.github.io/cstopics/artificial-intelligence/syllabusAI" target="_blank">course page</a></li>
+                  <li>Operating Systems: <a href="https://cstopics.github.io/cstopics/programming/operating-systems" target="_blank">course page</a></li>
+                </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td><i class="far fa-calendar-alt"></i> October 2017 - February 2018</td>
+            <td>
+                <span class="w3-large"><b>Lecturer</b></span><br>
+                <a href="http://uptc.edu.co/" target="_blank">Universidad Pedagógica y Tecnológica de Colombia</a><br>
+                Tunja, Colombia<br>
+                <p><b>Courses imparted:</b></p>
+                <ul>
+                  <li>Computer Architecture</li>
+                  <li>Analog electronics</li>
+                </ul>
+            </td>
+          </tr>
+
+          <tr>
+              <td><i class="far fa-calendar-alt"></i> February 2016 - May 2017</td>
+              <td>
+                  <span class="w3-large"><b>Teaching Assistant</b></span><br>
+                  <a href="http://unal.edu.co/" target="_blank">Universidad Nacional de Colombia</a><br>
+                    Bogotá, Colombia<br>
+                  <p><b>Tutor of the following topics::</b></p>
+                  <ul>
+                    <li>Digital Systems</li>
+                    <li>Hardware Description Languages</li>
+                    <li>Programming</li>
+                  </ul>
+              </td>
+          </tr>
+
+        </table>
+
+      </div>
+
+      <div class="w3-container w3-cell w3-left-align w3-mobile" style="width:50%">
+        <h3 class="w3-round w3-teal w3-padding w3-card ">
+            <i class="fas fa-dumbbell"></i> Skills
+        </h3>
+
+        <div class="w3-container w3-padding w3-cell-row">
+          
+          <div class="w3-container w3-cell w3-padding w3-mobile" style="width:50%">
+            <div class="w3-card">
+              <div class="w3-round w3-teal w3-large w3-padding"> Programming Languages</div>
+              <div class="w3-round w3-white w3-padding">
+                  <p><i class="fas fa-check w3-text-teal"></i> C/C++</p>
+                  <p><i class="fas fa-check w3-text-teal"></i> Python</p>
+                  <p><i class="fas fa-check w3-text-teal"></i> Java</p>
+                  <p><i class="fas fa-check w3-text-teal"></i> .NET</p>
+                  <p><i class="fas fa-check w3-text-teal"></i> VHDL/Verilog</p>
+                </div>    
+            </div>
+          </div>
+
+          <div class="w3-container w3-cell w3-padding w3-mobile" style="width:50%">
+            <div class="w3-card">
+              <div class="w3-round w3-teal w3-large w3-padding"> Artificial Intelligence & Machine Learning</div>  
+              <div class="w3-round w3-white w3-padding">
+                <p><i class="fas fa-check w3-text-teal"></i> Convolutional Neural Networks</p>
+                <p><i class="fas fa-check w3-text-teal"></i> Recurrent Neural Networks and LSTM</p>
+                <p><i class="fas fa-check w3-text-teal"></i> Reinforcement Learning</p>
+              </div>    
+            </div>
+          </div>
+
+        </div>
+
+        <div class="w3-container w3-cell-row">
+          
+            <div class="w3-container w3-cell w3-padding w3-mobile" style="width:50%">
+              <div class="w3-card">
+                <div class="w3-round w3-teal w3-large w3-padding"> Frameworks & APIs</div>
+                <div class="w3-round w3-white w3-padding">
+                    <p><i class="fas fa-check w3-text-teal"></i> TensorFlow</p>
+                    <p><i class="fas fa-check w3-text-teal"></i> Keras</p>
+                    <p><i class="fas fa-check w3-text-teal"></i> ROS (MoteIt, RTAB-MAP, etc.)</p>
+                    <p><i class="fas fa-check w3-text-teal"></i> OpenCV</p>
+
+                  </div>    
+              </div>
+            </div>
+  
+          </div>
+
+        <h3 class="w3-round w3-teal w3-padding w3-card">
+            <i class="fas fa-award"></i> Awards, Honors and Fellowships
+        </h3>
+
+        <table class="w3-table">
+            <col width="25%">
+
+              <tr>
+                <td><i class="far fa-calendar-alt"></i> October 2019</td>
+                <td>
+                    <span class="w3-large"><b>First Place - Latin American Robotics Competition</b></span><br>
+                    Category: IEEE Open<br>
+                    Universidade Federal do Rio Grande - FURG<br>
+                    Rio Grande/RS, Brasil<br>
+                </td>
+              </tr>
+
+              <tr>
+                <td><i class="far fa-calendar-alt"></i> December 2014</td>
+                <td>
+                    <span class="w3-large"><b>Meritorious Bachelor Thesis</b></span><br>
+                    <a href="http://uptc.edu.co/" target="_blank">Universidad Pedagógica y Tecnológica de Colombia</a><br>
+                    Tunja, Colombia<br>
+                </td>
+              </tr>
+
+              <tr>
+                  <td><i class="far fa-calendar-alt"></i> December 2009</td>
+                  <td>
+                    <span class="w3-large"><b>Fellowship for Bachelor</b></span><br>
+                    <a href="http://uptc.edu.co/" target="_blank">Universidad Pedagógica y Tecnológica de Colombia</a><br>
+                    Tunja, Colombia<br>
+                </td>
+              </tr>
+
+        </table>
+
+      </div>
+
+    </div>
+
+    <div class="w3-row w3-padding-32 w3-large">
+      <div class="w3-third">
+        <a href="#" target="_blank"><i class="fas fa-user w3-xxxlarge w3-text-teal"></i></a>
+        <p>About me</p>
+      </div>
+      <div class="w3-third">
+        <a href="#" target="_blank"><i class="fas fa-book-open w3-xxxlarge w3-text-teal"></i></a>
+        <p>Publications</p>
+      </div>
+      <div class="w3-third">
+        <a href="#" target="_blank"><i class="fas fa-cogs w3-xxxlarge w3-text-teal"></i></a>
+        <p>Projects</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <!--  -->
+  <div class="w3-container w3-content w3-padding-32 w3-teal" style="max-width:2000px" id="contact">
+
+        <!-- <div class="" style="max-width:800px"> -->
+        <div>
+          <div class="w3-col m6 w3-large w3-margin-bottom w3-center">
+            <h2 class="w3-wide w3-center">Contact</h2>
+            <i class="fa fa-map-marker" style="width:30px"></i> Bogotá, Colombia<br>
+            <!-- <i class="fa fa-phone" style="width:30px"></i> Phone: +57 3013313328<br> -->
+            <i class="fa fa-envelope" style="width:30px"> </i> Email: camilo.im93[at]gmail.com<br>
+          </div>
+          <div class="w3-col m6 w3-large w3-margin-bottom w3-center">
+            <h2 class="w3-wide w3-center">Other links</h2>
+            <i class="fab fa-linkedin" style="width:30px"></i><a href="https://www.linkedin.com/in/edgar-camilo-camacho-poveda-288230123/" target="_blank">LinkedIn</a><br>
+            <i class="fab fa-github" style="width:30px"></i><a href="https://github.com/edgarcamilocamacho" target="_blank">GitHub</a><br>        
+            <i class="fab fa-orcid" style="width:30px"></i><a href="https://orcid.org/0000-0002-6084-2512" target="_blank">ORCID</a><br>
+            <i class="fas fa-graduation-cap" style="width:30px"></i><a href="https://scholar.google.com/citations?user=tJG988kAAAAJ" target="_blank">Google Scholar</a><br>
+          </div>
+        </div>
+
+  </div>
+  
+</div>
+<!-- End Page Content -->
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
